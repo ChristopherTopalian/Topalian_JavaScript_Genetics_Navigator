@@ -1,0 +1,150 @@
+/* style001.css */
+
+body
+{
+    background-color: rgb(30, 30, 30);
+    font-family: Arial;
+    color: rgb(200, 200, 200);
+}
+
+a
+{
+    color: rgb(100, 100, 100);
+}
+
+hr
+{
+    margin-top: 5px;
+}
+
+button
+{
+    background-color: rgb(0, 77, 129);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(100, 100, 255);
+    border-radius: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    opacity: 1.0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(6, 31, 47);
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+}
+
+button:active
+{
+    color: rgb(255, 0, 255);
+}
+
+.result
+{
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    color: rgb(255, 255, 255);
+}
+
+.panel
+{
+    background-color: rgb(0, 0, 0);
+    border: solid 1px rgb(100, 100, 100);
+    overflow-y: scroll;
+}
+
+.nucleotideSpan
+{
+    margin-right: 2px;
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.nucleotideSpan:hover
+{
+    position: relative;
+    top: 1px;
+}
+
+.nucleotideDiv1
+{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.nucleotideDiv1:hover
+{
+    position: relative;
+    top: 1px;
+}
+
+.nucleotideDiv2
+{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.nucleotideDiv2:hover
+{
+    position: relative;
+    top: 1px;
+}
+
+.mutationMarker
+{
+    padding: 5px;
+    border: 1px solid rgb(100, 100, 100);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    cursor: pointer;
+}
+
+.mutationMarker:hover
+{
+    position: relative;
+    top: 1px;
+}
+
+/*----*/
+
+/* Dedicated to God the Father */
+/* All Rights Reserved Christopher Andrew Topalian Copyright 2000-2024 */
+/* https://github.com/ChristopherTopalian */
+/* https://github.com/ChristopherAndrewTopalian */
+/* https://sites.google.com/view/CollegeOfScripting */
+
